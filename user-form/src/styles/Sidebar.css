@@ -1,0 +1,22 @@
+.sidebar {
+    width: 250px;
+    min-height: calc(100vh - 200px);
+    background-color: #ffffff;
+    border-radius: 0 !important;
+  }
+  
+  .sidebar .MuiListItem-root {
+    padding: 1rem;
+  }
+  
+  .sidebar .MuiListItem-root:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .sidebar .MuiListItem-root.Mui-selected {
+    background-color: #e3f2fd;
+  }
+  
+  .sidebar .MuiTypography-root {
+    color: #1976d2;
+  }
